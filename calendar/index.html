@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calendar">
+                <div class="month">
+                    <div class="date">
+                        <div class="buttons">
+                            <button id="prev"> <i class="fas fa-chevron-left"></i> </button>
+                             <button id="next"> <i class="fas fa-chevron-right"></i> </button>
+                        </div>
+                        <!-- SELECT DISTINCT naturezalancamento FROM  wshop.dredetalhe; -->
+                        <h1></h1>
+                        <p></p>
+                    </div>
+                </div><!--month-->
+            <div class="weeks">
+                <div>Seg</div>
+                <div>Ter</div>
+                <div>Qua</div>
+                <div>Qui</div>
+                <div>Sex</div>
+                <div>Sab</div>
+                <div>Dom</div>
+            </div>
+        <div class="days"></div>
+        </div>
+    </div>
+    <div>
+        <footer>
+            <p style="display:flex;justify-content: center;"><a href="https://github.com/william-devBr">william-devBr</a></p>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
